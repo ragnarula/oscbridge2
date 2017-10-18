@@ -1,0 +1,6 @@
+#include "devicestore.h"
+
+DeviceStore::DeviceStore()
+{
+
+}

@@ -1,0 +1,12 @@
+#ifndef DEVICELISTENER_H
+#define DEVICELISTENER_H
+
+#include <string>
+
+class DeviceStateChangeListener
+{
+public:
+    virtual void OnDeviceStateChange() = 0;
+};
+
+#endif // DEVICELISTENER_H

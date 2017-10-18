@@ -1,0 +1,6 @@
+#include "udpmessagehandler.h"
+
+UDPMessageHandler::UDPMessageHandler()
+{
+
+}

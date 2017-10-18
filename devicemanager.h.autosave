@@ -1,0 +1,22 @@
+#ifndef DEVICEMANAGER_H
+#define DEVICEMANAGER_H
+
+class Device;
+
+class DeviceManager
+{
+public:
+    DeviceManager(DeviceModelListener& Listener);
+    
+    void CreateNewTcpDevice(const std::string& Name, 
+                            const std::string& Host, 
+                            unsigned int Port, 
+                            DeviceListener& Listener);
+    
+    void StartDevice(const std::string& Name);
+    void StopDevice(const std::string& Name);
+    void RemoveDevice(const std::string& Name);
+    void WriteToDevice(const std::string& Name, const std::string& Message);
+};
+
+#endif // DEVICEMANAGER_H

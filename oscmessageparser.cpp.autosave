@@ -1,0 +1,6 @@
+#include "oscmessageparser.h"
+
+OSCMessageParser::OSCMessageParser()
+{
+
+}

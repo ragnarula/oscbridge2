@@ -1,0 +1,6 @@
+#include "udpmessagedecoder.h"
+
+UDPMessageDecoder::UDPMessageDecoder()
+{
+
+}
