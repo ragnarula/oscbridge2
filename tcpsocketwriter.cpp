@@ -9,7 +9,7 @@ TcpSocketWriter::TcpSocketWriter(const std::string& Message, boost::asio::ip::tc
     m_ClientSharedLock(Client.GetMutex()),
     m_Client(Client)
 {
-
+    m_Message.append("\n");
 }
 
 
